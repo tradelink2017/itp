@@ -81,7 +81,9 @@
                         android:fontFamily="sans-serif"
                         android:textSize="18sp"
                         android:textColor="@color/profile"
-                        android:layout_alignParentTop="true" />
+                        android:layout_alignParentTop="false"
+                        android:layout_marginLeft="155dp"
+                        android:layout_marginTop="25dp" />
 
                     <SearchView
                         android:layout_height="30dp"
@@ -111,7 +113,7 @@
                         android:textColor="@color/profile"
                         android:layout_below="@+id/textView5"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="14dp" />
+                        android:layout_marginTop="15dp" />
 
                     <TextView
                         android:text="accphone"
@@ -122,21 +124,8 @@
                         android:fontFamily="sans-serif"
                         android:textSize="18sp"
                         android:textColor="@color/profile"
-                        android:layout_below="@+id/textView7"
                         android:layout_centerHorizontal="true"
-                        android:layout_marginTop="17dp" />
-
-                    <TextView
-                        android:text="interested in"
-                        android:layout_width="wrap_content"
-                        android:layout_height="wrap_content"
-                        android:id="@+id/textView"
-                        android:typeface="sans"
-                        android:fontFamily="sans-serif"
-                        android:textSize="18sp"
-                        android:textColor="@color/profile"
-                        android:layout_alignBottom="@+id/imageView"
-                        android:layout_alignStart="@+id/textView7" />
+                        android:layout_marginTop="100dp" />
 
                 </RelativeLayout>
 
